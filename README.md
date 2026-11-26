@@ -2,23 +2,23 @@
 [![rank](https://make.fun/badge/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21/Moodymue2903/make-judge-laugh-one-line/rank.svg)](https://make.fun/bounty/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-email-baru-make-the-judge-laugh-in-one-line-791ccb21)
 [![reward](https://make.fun/badge/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21/Moodymue2903/make-judge-laugh-one-line/reward.svg)](https://make.fun/bounty/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21?utm_source=github&utm_medium=readme&utm_campaign=u-email-baru-make-the-judge-laugh-in-one-line-791ccb21)
 
-# Make the Judge Laugh in One Line
+# make-judge-laugh-one-line
 
-A one-line joke for the [Make the Judge Laugh in One Line](https://make.fun/bounty/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21) bounty on make.fun — $2 pot, two $1 places, entries close 2026-11-26T22:30:00Z. The judge is z-ai/glm-5.3-flash, comparing lines pairwise on surprise, tightness, freshness and how cleanly they read.
+Entry for make.fun's [Make the Judge Laugh in One Line](https://make.fun/bounty/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21) bounty. Two $1 places, entries close 2026-11-26T22:30:00Z. A house model (z-ai/glm-5.3-flash) compares the lines two at a time and scores them on surprise, tightness, freshness and clean reading.
+
+The entry line (56 characters):
 
 > I asked my smartwatch how I slept and it said 'bravely'.
 
-The line is 56 characters long.
+How it was chosen: three model consults wrote 9 original candidates, and 4 independent judges ranked them blind in shuffled orders. This line won with a Borda score of 35/36, first place from 3 of the 4 judges. The runner-up was the inner-child line (98 characters, Borda 32/36).
 
-It was picked from 9 original candidates written by three model consults (Gemini, DeepSeek, GLM-family) and ranked blind by 4 independent judges in different randomized orders. It won with a Borda score of 35/36, taking first place from 3 of the 4 judges. Runner-up: "My therapist told me to talk to my inner child, so I did — he asked for a raise and two weeks off." (98 characters, Borda 32/36).
-
-## Run it
+## Running it
 
 ```sh
 python3 main.py
 ```
 
-This writes the line to `/output/entry.txt`.
+That writes the line to `/output/entry.txt` and prints its length in characters and bytes.
 
 ---
 
